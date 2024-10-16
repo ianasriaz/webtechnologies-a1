@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Resume</title>
+
+    <style>
+        ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+    </style>
+</head>
+<body>
+
+    <!--Header Start-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="images/envato-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!-- Use ms-auto for Bootstrap 5 -->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--Header End-->
+
+
+    <!--Section 1 Start-->
+
+        <div class="section">
+            <div class="container" style="padding-top: 30px;">
+                <p>MY RESUME</p>
+                <div class="display-6"><h3><b>My Skills & History</b></h3></div>
+            </div>
+
+            <div class="container" style="padding-top: 30px;">
+                <div class="row">
+                    <div class="col">
+                        <div class="display-6"><h5>Work Experience</h5></div>
+                            <div><ul class="timeline">
+                            <li>
+                                <h5><b>Facebook Inc.</b></h5>
+                                <p><b>Art Director</b></p>
+                                <p>2010 - Present</p>
+                            </li>
+                            <li>
+                                <h5><b>Google</b></h5>
+                                <p><b>Senior Designer</b></p>
+                                <p>2008 - 2010</p>
+                            </li>
+                            <li>
+                                <h5><b>Creative Shake</b></h5>
+                                <p><b>Junior Designer</b></p>
+                                <p>2006 - 2008</p>
+                            </li>
+                             </ul></div>
+                    </div>
+                    <div class="col">
+                        <div class="display-6"><h5>Education Experience</h5></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                        <div><ul class="timeline">
+                                        <li>
+                                            <h5><b>Air University</b></h5>
+                                            <p><b>BSIT</b></p>
+                                            <p>2023 - Present</p>
+                                        </li>
+                                        <li>
+                                            <h5><b>ABC College</b></h5>
+                                            <p><b>FSc</b></p>
+                                            <p>2021 - 2023</p>
+                                        </li>
+                                        <li>
+                                            <h5><b>Nova Schools</b></h5>
+                                            <p><b>Matric</b></p>
+                                            <p>2019 - 2021</p>
+                                        </li>
+                                         </ul></div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Section 1 End-->
+
+    <!--Section 2 Start-->
+
+        <div class="scetion">
+
+            <div class="container" style="padding-top: 30px;">
+                <div class="display-6"><h3><b>My Skills</b></h3></div>
+            </div>
+
+            <div class="container" style="padding-top: 30px;">
+                <div class="row">
+                    <div class="col">
+                        <h5>Coding Skills</h5>
+                        <div class="ul">
+                            <li>ReactNative</li>
+                            <li>Front End Development</li>
+                            <li>HTML5/CSS3</li>
+                            <li>Ios Development</li>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h5>Design Skills</h5>
+                        <div class="ul">
+                            <li>Web Design</li>
+                            <li>Mobile App Design</li>
+                            <li>Branding</li>
+                            <li>Logo Designing</li>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h5>Tools</h5>
+                        <div class="ul">
+                            <li>Figma</li>
+                            <li>After Effects</li>
+                            <li>Photoshop</li>
+                            <li>Blender</li>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="ul" style="padding-top: 25px;">
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe Xd</li>
+                            <li>Sketch</li>
+                            <li>VS Code</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    <!--Section 2 End-->
+
+    <!-- Section 3 Start-->
+
+        <div class="section">
+            <div class="container" style="padding-top: 30px;">
+                <div class="display-6"><h3><b>Trusted Partners</b></h3></div>
+            </div>
+
+            <div class="container" style="padding-top: 30px;">
+                <div class="row">
+                    <div class="col"><img src="images/envato-logo.png" alt="" style="width: 150px;"></div>
+                    <div class="col"><img src="images/easypaisa.png" alt="" style="width: 150px;"></div>
+                    <div class="col"><img src="images/HBL_logo.png" alt="" style="width: 150px;"></div>
+                    <div class="col"><img src="images/paymo.svg" alt="" style="width: 150px;"></div>
+                </div>
+            </div>
+        </div>
+
+    <!--Section 3 End-->
+
+    <!--Footer Start-->
+
+        <footer style="padding-top: 150px;">
+            <h2 style="text-align: center;"><b>Let's create good <br> works together. </b></h2>
+            <hr>
+
+            <div class="container text-center">
+                <img src="images/social icons.png" alt="" style="width: 200px;">
+            </div>
+
+            <div class="container text-center">
+                <p> Copyright @ 2024 Anas Riaz <br> All rights Reserved</p>
+            </div>
+            
+        </footer>
+
+    <!--Footer End-->
+</body>
+</html>
